@@ -1,9 +1,5 @@
-package co.megusta.moshitest.network;
+package co.megusta.unwrapapitest.network;
 
-import java.util.List;
-
-import co.megusta.moshitest.models.ApiWrapper;
-import co.megusta.moshitest.models.Collection;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.GET;

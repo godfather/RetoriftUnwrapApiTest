@@ -1,9 +1,9 @@
-package co.megusta.moshitest.models;
+package co.megusta.unwrapapitest.models;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import co.megusta.moshitest.network.ApiError;
+import co.megusta.unwrapapitest.network.ApiError;
 
 public class ApiWrapper<T> {
     public final int status;

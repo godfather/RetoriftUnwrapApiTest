@@ -1,4 +1,4 @@
-package co.megusta.moshitest.models;
+package co.megusta.unwrapapitest.models;
 
 public class Collection {
     public int id;

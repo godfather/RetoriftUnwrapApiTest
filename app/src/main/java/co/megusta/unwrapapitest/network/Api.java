@@ -1,10 +1,9 @@
-package co.megusta.moshitest.network;
+package co.megusta.unwrapapitest.network;
 
 import retrofit2.Retrofit;
-import retrofit2.converter.moshi.MoshiConverterFactory;
 
 public class Api {
-    private static final String BASE_URL = "https://livreto-api.beta.livreto.co/v1/";
+    private static final String BASE_URL = "https://…";
     private static  Retrofit retrofit;
     private static NetAPI netAPI;
 

@@ -1,4 +1,4 @@
-package co.megusta.moshitest.network;
+package co.megusta.unwrapapitest.network;
 
 public class ApiError {
     public int code;

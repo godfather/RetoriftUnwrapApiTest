@@ -1,4 +1,4 @@
-package co.megusta.moshitest.viewmodels;
+package co.megusta.unwrapapitest.viewmodels;
 
 import android.util.Log;
 
@@ -11,17 +11,17 @@ import java.util.List;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
-import co.megusta.moshitest.models.ApiWrapper;
-import co.megusta.moshitest.models.Collection;
-import co.megusta.moshitest.network.Api;
-import co.megusta.moshitest.network.ApiError;
+import co.megusta.unwrapapitest.models.ApiWrapper;
+import co.megusta.unwrapapitest.models.Collection;
+import co.megusta.unwrapapitest.network.Api;
+import co.megusta.unwrapapitest.network.ApiError;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
 public class CollectionViewModel extends ViewModel {
-    private static final String TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJzYW50aWFnb2Nhcm1vIiwiaWF0IjoxNTk2MTY2MTkxLCJleHAiOjE1OTYxNjk3OTF9.5uOH6fZbB2r7ivsO8N5sHrZT8RBOrlQ1EWi-LHLH3ws";
+    private static final String TOKEN = "Bearer …";
 
     private final MutableLiveData<List<Collection>> collections = new MutableLiveData<>();
     private final MutableLiveData<Boolean> loading = new MutableLiveData<>();

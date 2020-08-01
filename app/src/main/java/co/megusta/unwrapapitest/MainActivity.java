@@ -1,8 +1,8 @@
-package co.megusta.moshitest;
+package co.megusta.unwrapapitest;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;
-import co.megusta.moshitest.viewmodels.CollectionViewModel;
+import co.megusta.unwrapapitest.viewmodels.CollectionViewModel;
 
 import android.os.Bundle;
 import android.widget.TextView;
